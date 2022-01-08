@@ -1,0 +1,153 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: old_nyingpo
+  name: 清末寧波話
+  version: "0.1.0"
+  author:
+    - Electric Sheep <shinzoqchiuq@outlook.com>
+  description: |
+    清末寧波話
+    https://github.com/ionkaon/rime-old-nyingpo
+    字音來自 The Ningpo Syllabary
+    按下 ` 反查清末寧波話讀音
+    同時按下 Shift 和 Enter 將輸入碼上屏
+  dependencies:
+    - wugniu_gninpou
+    - stroke
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@wugniu_gninpou # 自定義tag wugniu_gninpou
+    - affix_segmentor@stroke      # 自定義tag stroke
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator              # 主翻譯器
+    - script_translator@wugniu_gninpou  # 用於反查的wugniu_gninpou翻譯器
+    - table_translator@stroke        # 用於反查的stroke翻譯器
+    - table_translator@custom_phrase # 用戶短語
+  filters:
+    - simplifier
+    - uniquifier
+    - reverse_lookup_filter@reverse_lookup # 反查濾鏡
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  delimiter: " '"
+  algebra:
+    - xform/^ʽ/gh/
+    - xform/ʽ/h/
+    - xform/(?<=[mnl])̆/h/
+    - xform/w̆/u/
+    - xform/æ/ae/
+    - xform/ô/oo/
+    - xform/ö/oe/
+    - xform/ü/uu/
+
+    - derive/([ae])o/$1u/
+    - derive/h\b/q/
+    - derive/uui/iu/
+    - derive/uuo/io/
+    - derive/([yw])h/h$1/
+    - derive/yi(?=[aou])/y/
+
+# 主翻譯器 清末寧波話
+translator:
+  dictionary: old_nyingpo # 調取詞典old_nyingpo
+  prism: old_nyingpo      # 根據拼寫運算生成棱鏡文件old_nyingpo
+  spelling_hints: 5          # 標註拼音
+  preedit_format:
+    - xform/y(?=[aou])/yi/
+    - xform/h([yw])/$1h/
+    - xform/io/üo/
+    - xform/iu/üi/
+    - xform/q/h/
+    - xform/([ae])u/$1o/
+
+    - xform/uu/ü/
+    - xform/oe/ö/
+    - xform/oo/ô/
+    - xform/ae/æ/
+    - xform/u(?=[eôaæ])/w̆/
+    - xform/(?<=[mnl])h/̆/
+    - xform/(?<=[ptscyk])h/ʽ/
+    - xform/gh/ʽ/
+
+# 副翻譯器1 吳語（寧波）
+wugniu_gninpou:
+  tag: wugniu_gninpou
+  dictionary: wugniu_gninpou # 調取詞典wugniu_gninpou
+  enable_user_dict: false # 關閉用戶詞典
+  prefix: '`'             # 引導鍵「`」
+  suffix: "'"             # 結束鍵「'」
+  tips: 〔反查〕          # 輸入前提示〔反查〕
+  closing_tips: 〔清末寧波話〕
+  preedit_format:
+    # 還原城區音系
+    - xform/(\w*)-(\w*)/$1/
+    - xform/(\b|c|j|gn|kn|[csz]h)(y|i)o\b//
+
+stroke:
+  tag: stroke
+  dictionary: stroke      # 調取詞典stroke
+  enable_user_dict: false # 關閉用戶詞典
+  prefix: '`'             # 引導鍵「`」
+  suffix: "'"             # 結束鍵「'」
+  tips: 〔反查〕          # 輸入前提示〔反查〕
+  closing_tips: 〔清末寧波話〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+# 副翻譯器3 用戶短語
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase # 用戶詞典名
+  db_class: stabledb       # 詞典類型爲只讀格式
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+# 反查濾鏡
+reverse_lookup:
+  tags: [wugniu_gninpou, stroke] # 掛在翻譯器wugniu_gninpou和stroke上
+  overwrite_comment: true     # 覆蓋其他提示
+  dictionary: old_nyingpo  # 反查所得爲清末寧波話
+
+punctuator:
+  import_preset: symbols # 句讀處理器，統一從外部導入
+
+key_binder:
+  import_preset: default # 快捷鍵，統一從外部導入
+
+recognizer:
+  import_preset: default # 特殊規則輸入碼，統一從外部導入
+  patterns:
+    punct: "^/([0-9]|10|[A-Za-z]+)$" # 按 / 輸入符號
+    wugniu_gninpou: "`[hspnz]*[aeiouv][a-z]*'?$|`[a-gi-moqrt-y][a-z]*'?$"
+    stroke: "`[hspnz]+'?$"
