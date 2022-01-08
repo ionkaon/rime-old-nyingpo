@@ -4,7 +4,7 @@
 schema:
   schema_id: old_nyingpo
   name: 清末寧波話
-  version: "0.1.0"
+  version: "0.1.1"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -74,6 +74,7 @@ speller:
     - derive/h\b/q/
     - derive/uui/iu/
     - derive/uuo/io/
+    - derive/nh(y|g)/n$1h/
     - derive/([yw])h/h$1/
     - derive/yi(?=[aou])/y/
 
@@ -84,19 +85,20 @@ translator:
   spelling_hints: 5          # 標註拼音
   preedit_format:
     - xform/y(?=[aou])/yi/
-    - xform/h([yw])/$1h/
+    - xform/(?<!\b)h([yw])/$1h/
+    - xform/n(y|g)h/nh$1/
     - xform/io/üo/
-    - xform/iu/üi/
+    - xform/iu(?=[nhq])/üi/
     - xform/q/h/
     - xform/([ae])u/$1o/
 
-    - xform/uu/ü/
+    - xform/i?uu/ü/
     - xform/oe/ö/
     - xform/oo/ô/
     - xform/ae/æ/
     - xform/u(?=[eôaæ])/w̆/
     - xform/(?<=[mnl])h/̆/
-    - xform/(?<=[ptscyk])h/ʽ/
+    - xform/([ptcyk]|ts)h/$1ʽ/
     - xform/gh/ʽ/
 
 # 副翻譯器1 吳語（寧波）

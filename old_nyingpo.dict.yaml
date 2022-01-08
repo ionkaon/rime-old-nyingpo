@@ -941,6 +941,7 @@ use_preset_vocabulary: true
 烔	dong
 獞	dong
 鮦	dong
+☐	dô
 踱	dôh
 毒	dôh
 讟	dôh
@@ -992,6 +993,7 @@ use_preset_vocabulary: true
 絶	djih
 蕝	djih
 𢴭	djih
+☐	djing
 蜀	djoh
 妯	djoh
 柚	djoh
@@ -1344,6 +1346,7 @@ use_preset_vocabulary: true
 祚	dzu
 䅳	dzu
 揞	e
+☐	ʽe
 阨	eh
 呃	eh
 扼	eh
@@ -1430,6 +1433,7 @@ use_preset_vocabulary: true
 發	fah
 髮	fah
 𠵽	fah
+☐	fæ
 反	fæn
 番	fæn
 繙	fæn
@@ -1587,16 +1591,27 @@ use_preset_vocabulary: true
 䯙	fu
 憮	fu
 𥹃	fu
+☐	ga
 戤	gæ
+☐	gæn
 軋	gah
 㽘	gang
 峧	gao
 搿	geh
 䦪	geh
 𪆰	geh
+☐	gen
+☐	geng
+☐	geo
 個	go
 共	gong
+☐	gô
+☐	goh
+☐	gông
+☐	gwa
 摜	gwæn
+☐	gwah
+☐	gwang
 葵	gwe
 暌	gwe
 闠	gwe
@@ -1619,6 +1634,8 @@ use_preset_vocabulary: true
 闋	gwe
 䙆	gwe
 湀	gwe
+☐	gweh
+☐	gweng
 狂	gwông
 跍	gwu
 其	gyi
@@ -1827,6 +1844,7 @@ use_preset_vocabulary: true
 薅	hao
 嗃	hao
 𤠖	hao
+☐	he
 黑	heh
 喝	heh
 郝	heh
@@ -1893,6 +1911,7 @@ use_preset_vocabulary: true
 咺	hwæn
 豁	hwah
 奯	hwah
+☐	hwang
 灰	hwe
 隳	hwe
 喙	hwe
@@ -2400,6 +2419,7 @@ use_preset_vocabulary: true
 墡	jün
 蟮	jün
 饍	jün
+☐	ka
 卡	kʽa
 隔	kah
 格	kah
@@ -2491,6 +2511,7 @@ use_preset_vocabulary: true
 嵁	kʽæn
 輡	kʽæn
 掐	kʽæn
+☐	ke
 割	keh
 蛤	keh
 鴿	keh
@@ -2670,6 +2691,8 @@ use_preset_vocabulary: true
 鞚	kʽong
 涳	kʽong
 悾	kʽong
+☐	kô
+☐	kʽô
 各	kôh
 𣫀	kôh
 売	kʽôh
@@ -2708,6 +2731,8 @@ use_preset_vocabulary: true
 㰠	kʽông
 閌	kʽông
 躿	kʽông
+☐	kun
+☐	kʽun
 拐	kwa
 柺	kwa
 箉	kwa
@@ -2730,6 +2755,8 @@ use_preset_vocabulary: true
 𣸅	kwah
 頢	kwah
 𦑜	kwah
+☐	kwang
+☐	kwʽang
 關	kwæn
 瘝	kwæn
 慣	kwæn
@@ -3457,6 +3484,7 @@ use_preset_vocabulary: true
 茳	kyüông
 賴	la
 嬾	la
+☐	l̆a
 蠟	lah
 拉	lah
 辣	lah
@@ -3471,6 +3499,9 @@ use_preset_vocabulary: true
 垃	lah
 爉	lah
 瘌	lah
+☐	l̆ah
+☐	lang
+☐	l̆ang
 老	lao
 牢	lao
 勞	lao
@@ -3548,6 +3579,7 @@ use_preset_vocabulary: true
 羸	le
 藟	le
 屢	le
+☐	l̆e
 勒	leh
 仂	leh
 肋	leh
@@ -3563,6 +3595,7 @@ use_preset_vocabulary: true
 扐	leh
 泐	leh
 鰳	leh
+☐	len
 論	leng
 圇	leng
 崙	leng
@@ -3665,6 +3698,7 @@ use_preset_vocabulary: true
 唎	li
 篱	li
 鱺	li
+☐	l̆i
 畧	liah
 掠	liah
 鱲	liah
@@ -3750,6 +3784,7 @@ use_preset_vocabulary: true
 朸	lih
 䟏	lih
 𭩶	lih
+☐	l̆ih
 連	lin
 帘	lin
 奩	lin
@@ -3827,6 +3862,7 @@ use_preset_vocabulary: true
 㩕	ling
 泠	ling
 痳	ling
+☐	l̆ing
 籀	liu
 流	liu
 劉	liu
@@ -3846,6 +3882,7 @@ use_preset_vocabulary: true
 霤	liu
 ⿰糹柳	liu
 鶹	liu
+☐	l̆iu
 羅	lo
 籮	lo
 鑼	lo
@@ -3865,6 +3902,7 @@ use_preset_vocabulary: true
 𤓲	lo
 𨇽	lo
 攞	lo
+☐	l̆o
 綠	loh
 六	loh
 洛	loh
@@ -3902,6 +3940,7 @@ use_preset_vocabulary: true
 熝	loh
 胳	loh
 䟿	loh
+☐	l̆oh
 龍	long
 隆	long
 嚨	long
@@ -3926,6 +3965,8 @@ use_preset_vocabulary: true
 贚	long
 衕	long
 霳	long
+☐	lô
+☐	l̆ô
 落	lôh
 盝	lôh
 戮	lôh
@@ -3943,6 +3984,7 @@ use_preset_vocabulary: true
 筤	lông
 閬	lông
 躴	lông
+☐	l̆ông
 亂	lön
 鑾	lön
 鸞	lön
@@ -3983,6 +4025,7 @@ use_preset_vocabulary: true
 潞	lu
 嚧	lu
 𡀔	lu
+☐	l̆u
 拇	m
 姆	m
 胟	m
@@ -3990,6 +4033,7 @@ use_preset_vocabulary: true
 𧿹	m
 嘸	m̆
 賣	ma
+☐	m̆a
 買	mæ
 埋	mæ
 霾	mæ
@@ -4005,8 +4049,10 @@ use_preset_vocabulary: true
 驀	mah
 鉑	mah
 蛨	mah
+☐	m̆ah
 蜢	mang
 猛	mang
+☐	m̆ang
 毛	mao
 茅	mao
 卯	mao
@@ -4023,6 +4069,7 @@ use_preset_vocabulary: true
 䭷	mao
 萺	mao
 牦	mao
+☐	m̆ao
 慢	mæn
 漫	mæn
 邁	mæn
@@ -4037,6 +4084,7 @@ use_preset_vocabulary: true
 嫚	mæn
 鏝	mæn
 鬘	mæn
+☐	m̆æn
 美	me
 梅	me
 枚	me
@@ -4068,6 +4116,7 @@ use_preset_vocabulary: true
 𩎟	me
 黴	me
 溦	me
+☐	m̆e
 沒	meh
 末	meh
 默	meh
@@ -4098,6 +4147,7 @@ use_preset_vocabulary: true
 濷	meng
 燜	meng
 𦁧	meng
+☐	m̆eng
 謀	meo
 牟	meo
 侔	meo
@@ -4243,6 +4293,7 @@ use_preset_vocabulary: true
 蟆	mo
 ⿰口魔	mo
 饝	mo
+☐	m̆o
 木	moh
 目	moh
 沐	moh
@@ -4266,6 +4317,7 @@ use_preset_vocabulary: true
 婺	moh
 ⿱敄車	moh
 万	moh
+☐	m̆oh
 蒙	mong
 濛	mong
 矇	mong
@@ -4290,6 +4342,7 @@ use_preset_vocabulary: true
 鰢	mô
 嗎	mô
 䳸	mô
+☐	m̆ô
 忙	mông
 芒	mông
 茫	mông
@@ -4317,6 +4370,7 @@ use_preset_vocabulary: true
 𠂏	na
 疓	na
 艿	na
+☐	n̆a
 乃	næ
 柰	næ
 耐	næ
@@ -4362,6 +4416,7 @@ use_preset_vocabulary: true
 㨥	neh
 内	neh
 𠺶	neh
+☐	n̆eh
 男	nen
 內	nen
 南	nen
@@ -4371,8 +4426,10 @@ use_preset_vocabulary: true
 諵	nen
 婻	nen
 罱	nen
+☐	n̆en
 能	neng
 嫩	neng
+☐	n̆eng
 耨	neo
 獳	neo
 㝅	neo
@@ -4381,6 +4438,8 @@ use_preset_vocabulary: true
 𩒔	neo
 檽	neo
 俉	ng
+☐	nga
+☐	n̆ga
 呆	ngæ
 礙	ngæ
 獃	ngæ
@@ -4395,6 +4454,7 @@ use_preset_vocabulary: true
 𩜠	ngæn
 額	ngah
 峉	ngah
+☐	n̆gah
 硬	ngang
 鞕	ngang
 敖	ngao
@@ -4416,9 +4476,11 @@ use_preset_vocabulary: true
 鷔	ngao
 謷	ngao
 慠	ngao
+☐	n̆gao
 𥑺	ngeh
 岸	ngen
 豻	ngen
+☐	ngeng
 偶	ngeo
 耦	ngeo
 藕	ngeo
@@ -4440,6 +4502,7 @@ use_preset_vocabulary: true
 我	ngô
 砑	ngô
 衙	ngô
+☐	n̆gô
 岳	ngoh
 鄂	ngoh
 鶴	ngoh
@@ -4462,6 +4525,7 @@ use_preset_vocabulary: true
 偔	ngoh
 鍔	ngoh
 遌	ngoh
+☐	n̆goh
 昂	ngông
 卬	ngông
 頑	ngwæn
@@ -4509,6 +4573,7 @@ use_preset_vocabulary: true
 刓	ngwun
 抏	ngwun
 岏	ngwun
+☐	ni
 懦	no
 糯	no
 儺	no
@@ -4527,6 +4592,7 @@ use_preset_vocabulary: true
 膿	nong
 齈	nong
 噥	nong
+☐	n̆ong
 拿	nô
 𤸻	nô
 嗱	nô
@@ -4607,6 +4673,7 @@ use_preset_vocabulary: true
 廿	nyiæn
 𦁤	nyiæn
 䧔	nyiæn
+☐	n̆yiæn
 堯	nyiao
 饒	nyiao
 嫋	nyiao
@@ -4617,6 +4684,7 @@ use_preset_vocabulary: true
 僥	nyiao
 穾	nyiao
 𢶑	nyiao
+☐	n̆yiao
 溺	nyih
 逆	nyih
 臬	nyih
@@ -4699,6 +4767,7 @@ use_preset_vocabulary: true
 衄	nyiu
 莥	nyiu
 炄	nyiu
+☐	n̆yiu
 禺	nyü
 隅	nyü
 語	nyü
@@ -4719,6 +4788,7 @@ use_preset_vocabulary: true
 敔	nyü
 齵	nyü
 吽	nyü
+☐	nyüing
 元	nyün
 原	nyün
 源	nyün
@@ -4749,6 +4819,7 @@ use_preset_vocabulary: true
 狨	nyüong
 𧲤	nyüong
 毧	nyüong
+☐	nyüông
 窩	o
 阿	o
 媧	o
@@ -4977,6 +5048,7 @@ use_preset_vocabulary: true
 蹳	peh
 潑	pʽeh
 鏺	pʽeh
+☐	pʽen
 本	peng
 崩	peng
 奔	peng
@@ -5244,6 +5316,7 @@ use_preset_vocabulary: true
 鏷	pʽoh
 醭	pʽoh
 䨣	pʽoh
+☐	pong
 捧	pʽong
 菶	pʽong
 琫	pʽong
@@ -5502,6 +5575,7 @@ use_preset_vocabulary: true
 卅	seh
 濇	seh
 𥡢	seh
+☐	sen
 生	seng
 牲	seng
 甥	seng
@@ -5610,6 +5684,8 @@ use_preset_vocabulary: true
 俶	shoh
 埱	shoh
 𠲿	shoh
+☐	shong
+☐	shön
 啥	shô
 撦	shô
 𨅓	shô
@@ -6076,6 +6152,7 @@ use_preset_vocabulary: true
 搨	tʽah
 𩝣	tʽah
 打	tang
+☐	tʽang
 刀	tao
 島	tao
 倒	tao
@@ -6130,6 +6207,7 @@ use_preset_vocabulary: true
 秃	tʽeh
 慝	tʽeh
 鵚	tʽeh
+☐	ten
 貪	tʽen
 探	tʽen
 嗿	tʽen
@@ -6223,6 +6301,7 @@ use_preset_vocabulary: true
 屉	tʽi
 屜	tʽi
 爹	tia
+☐	tiah
 貼	tʽiah
 帖	tʽiah
 怗	tʽiah
@@ -6864,7 +6943,7 @@ use_preset_vocabulary: true
 將	tsiang
 漿	tsiang
 螿	tsiang
-獎	tsiang
+奬	tsiang
 蔣	tsiang
 醬	tsiang
 痮	tsiang
@@ -7622,6 +7701,7 @@ use_preset_vocabulary: true
 戊	vu
 亡	vu
 无	vu
+☐	wa
 孬	w̆a
 懷	wæ
 槐	wæ
@@ -7665,6 +7745,7 @@ use_preset_vocabulary: true
 䯉	w̆ah
 穵	w̆ah
 撗	wang
+☐	w̆ang
 會	we
 滙	we
 幃	we
@@ -8416,11 +8497,13 @@ use_preset_vocabulary: true
 𡍥	za
 砦	za
 材	zæ
+☐	zæn
 閘	zah
 煠	zah
 牐	zah
 𡮦	zao
 臑	zao
+☐	zang
 隨	ze
 蚋	ze
 邃	ze
@@ -8453,10 +8536,12 @@ use_preset_vocabulary: true
 錊	ze
 檖	ze
 繠	ze
+☐	zeh
 蠶	zen
 鏨	zen
 𨅔	zen
 層	zeng
+☐	zeo
 徐	zi
 墅	zi
 謝	zia
@@ -8562,6 +8647,7 @@ use_preset_vocabulary: true
 鍒	ziu
 坐	zo
 座	zo
+☐	zong
 惹	zô
 麝	zô
 辱	zôh
@@ -8572,6 +8658,7 @@ use_preset_vocabulary: true
 溽	zôh
 搙	zôh
 上	zông
+☐	zu
 嗟	cæ
 罝	cæ
 赭	cæ
