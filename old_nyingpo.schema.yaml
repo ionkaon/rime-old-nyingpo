@@ -4,7 +4,7 @@
 schema:
   schema_id: old_nyingpo
   name: 清末寧波話
-  version: "0.1.2"
+  version: "0.1.3"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -77,6 +77,10 @@ speller:
     - derive/nh(y|g)/n$1h/
     - derive/([yw])h/h$1/
     - derive/yi(?=[aou])/y/
+    # 簡拼
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^(nhy|nyh|nhg|ngh|tsh?|d[zj]|k[yw]h|kh[yw]|[khg][wy]).+$/$1/
+    - abbrev/^([pmtnlsckg]h).+$/$1/
 
 # 主翻譯器 清末寧波話
 translator:
