@@ -4,7 +4,7 @@
 schema:
   schema_id: old_nyingpo
   name: 清末寧波話
-  version: "0.1.1"
+  version: "0.1.2"
   author:
     - Electric Sheep <shinzoqchiuq@outlook.com>
   description: |
@@ -98,7 +98,7 @@ translator:
     - xform/ae/æ/
     - xform/u(?=[eôaæ])/w̆/
     - xform/(?<=[mnl])h/̆/
-    - xform/([ptcyk]|ts)h/$1ʽ/
+    - xform/([ptcyk]|ts|kw)h/$1ʽ/
     - xform/gh/ʽ/
 
 # 副翻譯器1 吳語（寧波）
