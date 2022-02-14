@@ -7,7 +7,7 @@
 - 查詢清末寧波話讀音
 - 輸入傳教士羅馬字
 
-清末寧波話的字音來自 [寧波方言資料整理](https://github.com/ionkaon/data) 中整理的 *The Ningpo Syllabary*。*The Ningpo Syllabary* 一書收錄了八千餘個清末寧波話字音，是研究清末寧波話的重要資料。原書註音採用指 [丁韙良](https://en.wikipedia.org/wiki/William_Alexander_Parsons_Martin) 等人在 1951 年創制的一套傳教士羅馬字。該套方案含有一些非 ASCII 字符。爲了方便輸入，本倉庫對原方案作以下轉寫：
+清末寧波話的字音來自 [寧波方言資料整理](https://github.com/ionkaon/data) 中整理的 *The Ningpo Syllabary*。*The Ningpo Syllabary* 一書收錄了八千餘個清末寧波話字音，是研究清末寧波話的重要資料。原書註音採用指 [丁韙良](https://en.wikipedia.org/wiki/William_Alexander_Parsons_Martin) 等人在 1851 年創制的一套傳教士羅馬字。該套方案含有一些非 ASCII 字符。爲了方便輸入，本倉庫對原方案作以下轉寫：
 
 - 表示濁音的 ʽ 轉寫爲 gh。
 - 在塞音、塞擦音後表示送氣的 ʽ 轉寫爲 h。
