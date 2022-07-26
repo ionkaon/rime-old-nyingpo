@@ -4,9 +4,9 @@
 schema:
   schema_id: old_nyingpo
   name: 清末寧波話
-  version: "0.1.3"
+  version: "0.1.4"
   author:
-    - Electric Sheep <shinzoqchiuq@outlook.com>
+    - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
     清末寧波話
     https://github.com/ionkaon/rime-old-nyingpo
