@@ -4,7 +4,7 @@
 schema:
   schema_id: old_nyingpo
   name: 清末寧波話
-  version: "0.1.4"
+  version: "0.1.5"
   author:
     - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
@@ -155,5 +155,5 @@ recognizer:
   import_preset: default # 特殊規則輸入碼，統一從外部導入
   patterns:
     punct: "^/([0-9]|10|[A-Za-z]+)$" # 按 / 輸入符號
-    wugniu_gninpou: "`[hspnz]*[aeiouv][a-z]*'?$|`[a-gi-moqrt-y][a-z]*'?$"
+    wugniu_gninpou: "`[hspnz]*[aeiouy][a-z]*'?$|`[a-gi-moqrt-y][a-z]*'?$"
     stroke: "`[hspnz]+'?$"
