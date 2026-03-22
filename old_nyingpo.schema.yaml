@@ -3,15 +3,15 @@
 
 schema:
   schema_id: old_nyingpo
-  name: 清末寧波話
+  name: 晚清寧波話
   version: "0.1.5"
   author:
     - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
-    清末寧波話
+    晚清寧波話
     https://github.com/ionkaon/rime-old-nyingpo
     字音來自 The Ningpo Syllabary
-    按下 ` 反查清末寧波話讀音
+    按下 ` 反查晚清寧波話讀音
     同時按下 Shift 和 Enter 將輸入碼上屏
   dependencies:
     - wugniu_gninpou
@@ -82,7 +82,7 @@ speller:
     - abbrev/^(nhy|nyh|nhg|ngh|tsh?|d[zj]|k[yw]h|kh[yw]|[khg][wy]).+$/$1/
     - abbrev/^([pmtnlsckg]h).+$/$1/
 
-# 主翻譯器 清末寧波話
+# 主翻譯器 晚清寧波話
 translator:
   dictionary: old_nyingpo # 調取詞典old_nyingpo
   prism: old_nyingpo      # 根據拼寫運算生成棱鏡文件old_nyingpo
@@ -113,7 +113,7 @@ wugniu_gninpou:
   prefix: '`'             # 引導鍵「`」
   suffix: "'"             # 結束鍵「'」
   tips: 〔反查〕          # 輸入前提示〔反查〕
-  closing_tips: 〔清末寧波話〕
+  closing_tips: 〔晚清寧波話〕
   preedit_format:
     # 還原城區音系
     - xform/(\w*)-(\w*)/$1/
@@ -126,7 +126,7 @@ stroke:
   prefix: '`'             # 引導鍵「`」
   suffix: "'"             # 結束鍵「'」
   tips: 〔反查〕          # 輸入前提示〔反查〕
-  closing_tips: 〔清末寧波話〕
+  closing_tips: 〔晚清寧波話〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
@@ -143,7 +143,7 @@ custom_phrase:
 reverse_lookup:
   tags: [wugniu_gninpou, stroke] # 掛在翻譯器wugniu_gninpou和stroke上
   overwrite_comment: true     # 覆蓋其他提示
-  dictionary: old_nyingpo  # 反查所得爲清末寧波話
+  dictionary: old_nyingpo  # 反查所得爲晚清寧波話
 
 punctuator:
   import_preset: symbols # 句讀處理器，統一從外部導入

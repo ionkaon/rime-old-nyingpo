@@ -1,13 +1,13 @@
-# 清末寧波話輸入方案
+# 晚清寧波話輸入方案
 
 配方：℞ **ionkaon/rime-old-nyingpo**
 
 本輸入方案主要提供兩個功能：
 
-- 查詢清末寧波話讀音
+- 查詢晚清寧波話讀音
 - 輸入傳教士羅馬字
 
-清末寧波話的字音來自 [寧波方言資料整理](https://github.com/ionkaon/data) 中整理的 *The Ningpo Syllabary*。*The Ningpo Syllabary* 一書收錄了八千餘個清末寧波話字音，是研究清末寧波話的重要資料。原書註音採用指 [丁韙良](https://en.wikipedia.org/wiki/William_Alexander_Parsons_Martin) 等人在 1851 年創制的一套傳教士羅馬字。該套方案含有一些非 ASCII 字符。爲了方便輸入，本倉庫對原方案作以下轉寫：
+晚清寧波話的字音來自 [寧波方言資料整理](https://github.com/ionkaon/data) 中整理的 *The Ningpo Syllabary*。*The Ningpo Syllabary* 一書收錄了八千餘個晚清寧波話字音，是研究晚清寧波話的重要資料。原書註音採用指 [丁韙良](https://en.wikipedia.org/wiki/William_Alexander_Parsons_Martin) 等人在 1851 年創制的一套傳教士羅馬字。該套方案含有一些非 ASCII 字符。爲了方便輸入，本倉庫對原方案作以下轉寫：
 
 - 表示濁音的 ʽ 轉寫爲 gh。
 - 在塞音、塞擦音後表示送氣的 ʽ 轉寫爲 h。
@@ -35,9 +35,9 @@
 
 ## 使用方法
 
-- 查詢清末寧波話讀音
+- 查詢晚清寧波話讀音
 
-  按下 `` ` `` 鍵使用筆畫或是現代寧波話的吳拼來反查清末寧波話的讀音
+  按下 `` ` `` 鍵使用筆畫或是現代寧波話的吳拼來反查晚清寧波話的讀音
 - 輸入傳教士羅馬字
 
   鍵入轉寫後，輸入碼會顯示爲傳教士羅馬字。同時按下 `Shift` 和 `Enter`，可以將輸入碼上屏。
