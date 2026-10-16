@@ -42,6 +42,13 @@
 
   鍵入轉寫後，輸入碼會顯示爲傳教士羅馬字。同時按下 `Shift` 和 `Enter`，可以將輸入碼上屏。
 
+## 其他
+
+- [寧波話吳語拼音輸入方案](https://github.com/NGLI/rime-wugniu_gninpou)
+- [寧波話輸入方案變體](https://github.com/ionkaon/rime-gninpou-variant)
+- [寧波話雙拼輸入方案](https://github.com/ionkaon/rime-gninpou-saonphin)
+- [寧波話兩分輸入方案](https://github.com/ionkaon/rime-gninpou-lianfen)
+- [推導的晚清寧波話吳語拼音輸入方案](https://github.com/shinzoqchiuq/rime-wugniu_gninpou_old)
 
 ## 聯繫
 
